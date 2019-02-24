@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.csii.ljj.mapper.UsersMapper">
+    <resultMap id="users" type="com.csii.ljj.pojo.Users">
+        <!--主键使用id标签-->
+        <id column="id" property="id1"/>
+        <!--其他属性使用 result标签-->
+        <result column="username" property="userName1"/>
+        <result column="userage" property="userage1"/>
+    </resultMap>
+
+    <insert id="insertUser" parameterType="com.csii.ljj.pojo.Users">
+        insert into users(username,userage) values (#{userName},#{userage})
+    </insert>
+    <select id="selectAll" resultMap="users">
+        select userid,username,userage from users
+    </select>
+
+    <select id="selectOne" parameterType="com.csii.ljj.pojo.Users" resultType="int">
+        select * from users where userid=#{userid}
+    </select>
+
+</mapper>

@@ -1,0 +1,2 @@
+1. 实际开发，使用 xxxMapper 接口  与xxxMapper.xml 进行接口绑定；然后使用xxxMapper 接口的方法进行操作。
+2.

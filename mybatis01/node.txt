@@ -1,0 +1,2 @@
+1.mybatis的全局配置和mapper.xml的配置
+2. logback+slf4j日志的配置

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+
+<configuration>
+    <!--配置日志-->
+    <settings>
+        <!--STDOUT_LOGGING-->
+        <setting name="logImpl" value="SLF4J"/>
+    </settings>
+    <environments default="development">
+        <!--配置JDBC使用环境-->
+        <environment id="development">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/ssm"/>
+                <property name="username" value="ljj"/>
+                <property name="password" value="ljj"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="mapper/UsersMapper.xml"></mapper>
+    </mappers>
+
+</configuration>
