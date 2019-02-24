@@ -1,0 +1,171 @@
+2019-02-24 12:22:12.960|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest begin------------------------------
+2019-02-24 12:22:13.100|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 12:23:57.776|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest begin------------------------------
+2019-02-24 12:23:57.914|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 12:23:57.916|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 12:23:57.939|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 12:23:57.940|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 12:23:57.941|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 12:23:57.941|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 12:23:58.034|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 12:23:58.391|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1652149987.
+2019-02-24 12:23:58.392|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 12:23:58.397|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 12:23:58.434|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 12:23:58.466|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 12:23:58.468|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 12:23:58.469|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 12:23:58.470|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1652149987 to pool.
+2019-02-24 14:34:14.898|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:34:15.048|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:34:15.051|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:34:15.073|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:34:15.073|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:34:15.074|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:34:15.074|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:34:15.180|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:34:15.517|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1652149987.
+2019-02-24 14:34:15.517|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:34:15.520|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:34:15.563|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:34:15.602|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:34:15.605|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:34:15.606|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:34:15.606|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1652149987 to pool.
+2019-02-24 14:34:15.607|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:50:03.920|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:50:04.083|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:50:04.086|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:50:04.130|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:04.130|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:04.131|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:04.131|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:04.232|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:50:04.567|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 700072760.
+2019-02-24 14:50:04.569|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:50:04.573|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:50:04.622|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:50:04.652|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:50:04.654|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:50:04.655|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:50:04.656|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 700072760 to pool.
+2019-02-24 14:50:04.656|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:50:43.883|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:50:44.027|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:50:44.029|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:50:44.052|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:44.053|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:44.054|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:44.054|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:50:44.165|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:50:44.508|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1652149987.
+2019-02-24 14:50:44.508|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:50:44.511|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:50:44.544|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:50:44.582|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:50:44.584|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:50:44.585|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6279cee3]
+2019-02-24 14:50:44.586|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1652149987 to pool.
+2019-02-24 14:50:44.586|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:51:00.941|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:51:01.100|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:51:01.105|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:51:01.147|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:51:01.148|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:51:01.149|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:51:01.150|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:51:01.306|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:51:01.675|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 700072760.
+2019-02-24 14:51:01.676|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:51:01.679|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:51:01.724|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:51:01.801|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:51:01.803|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:51:01.804|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@29ba4338]
+2019-02-24 14:51:01.804|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 700072760 to pool.
+2019-02-24 14:51:01.805|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:53:00.617|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:53:00.778|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:53:00.781|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:53:00.804|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:00.804|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:00.805|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:00.805|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:00.907|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:53:01.394|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1997287019.
+2019-02-24 14:53:01.395|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:01.399|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:53:01.459|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:53:01.490|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:53:01.492|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:01.493|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:01.494|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1997287019 to pool.
+2019-02-24 14:53:01.494|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:53:38.882|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:53:39.020|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:53:39.023|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:53:39.045|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:39.046|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:39.046|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:39.047|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:53:39.152|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:53:39.468|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1997287019.
+2019-02-24 14:53:39.469|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:39.472|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:53:39.523|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:53:39.560|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:53:39.562|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:39.563|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:53:39.564|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1997287019 to pool.
+2019-02-24 14:53:39.565|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:54:05.294|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:54:05.413|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:54:05.415|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:54:05.446|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:54:05.446|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:54:05.447|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:54:05.448|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:54:05.547|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:54:05.869|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1997287019.
+2019-02-24 14:54:05.870|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:54:05.873|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:54:05.914|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:54:05.952|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:54:05.957|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:54:05.958|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:54:05.958|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1997287019 to pool.
+2019-02-24 14:54:05.959|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:55:42.333|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:55:42.469|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:55:42.470|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:55:42.493|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:55:42.493|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:55:42.493|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:55:42.494|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:55:42.600|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:55:42.917|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 1997287019.
+2019-02-24 14:55:42.918|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:55:42.922|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:55:42.966|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:55:43.038|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:55:43.040|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:55:43.041|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@770c2e6b]
+2019-02-24 14:55:43.043|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 1997287019 to pool.
+2019-02-24 14:55:43.044|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------
+2019-02-24 14:56:36.464|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|23|------------------------selectAllTest Begin------------------------------
+2019-02-24 14:56:36.609|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:56:36.612|DEBUG|org.apache.ibatis.logging.LogFactory|main|setImplementation|128|Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 14:56:36.632|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:56:36.633|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:56:36.633|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:56:36.634|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|forceCloseAll|306|PooledDataSource forcefully closed/removed all connections.
+2019-02-24 14:56:36.731|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|openConnection|132|Opening JDBC Connection
+2019-02-24 14:56:37.068|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|popConnection|380|Created connection 2075495587.
+2019-02-24 14:56:37.069|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|setDesiredAutoCommit|98|Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bb58ca3]
+2019-02-24 14:56:37.073|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==>  Preparing: select userid,username,userage from users 
+2019-02-24 14:56:37.121|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|==> Parameters: 
+2019-02-24 14:56:37.147|DEBUG|org.apache.ibatis.logging.jdbc.BaseJdbcLogger|main|debug|139|<==      Total: 17
+2019-02-24 14:56:37.149|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|resetAutoCommit|120|Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bb58ca3]
+2019-02-24 14:56:37.150|DEBUG|org.apache.ibatis.transaction.jdbc.JdbcTransaction|main|close|88|Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bb58ca3]
+2019-02-24 14:56:37.150|DEBUG|org.apache.ibatis.datasource.pooled.PooledDataSource|main|pushConnection|334|Returned connection 2075495587 to pool.
+2019-02-24 14:56:37.151|INFO|com.csii.ljj.CRUDTest|main|selectAllTest|43|------------------------selectAllTest End------------------------------

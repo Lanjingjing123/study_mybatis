@@ -1,0 +1,5 @@
+2019-02-24 12:19:10.600|ERROR|com.csii.ljj.LogTest|main|main|12|333
+2019-02-24 12:22:57.426|INFO|com.csii.ljj.LogTest|main|main|10|111
+2019-02-24 12:22:57.433|DEBUG|com.csii.ljj.LogTest|main|main|11|222
+2019-02-24 12:22:57.433|INFO|com.csii.ljj.LogTest|main|main|13|444
+2019-02-24 12:22:57.433|INFO|com.csii.ljj.LogTest|main|main|14|555
